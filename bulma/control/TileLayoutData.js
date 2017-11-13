@@ -1,0 +1,1 @@
+"use strict";sap.ui.define(["sap/ui/core/LayoutData"],function(t){return t.extend("portfolio.bulma.control.TileLayoutData",{metadata:{properties:{size:{type:"int",defaultValue:null},order:{type:"int",defaultValue:null}}}})});

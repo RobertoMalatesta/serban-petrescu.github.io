@@ -1,0 +1,1 @@
+"use strict";sap.ui.define(["sap/ui/core/Control"],function(e){return e.extend("portfolio.bulma.control.Link",{metadata:{properties:{text:{type:"string"},href:{type:"sap.ui.core.URI"}}},renderer:function(e,t){e.write("<a "),e.writeControlData(t),e.writeAttributeEscaped("href",t.getHref()),e.writeClasses(),e.write(">"),e.writeEscaped(t.getText()||""),e.write("</a>")}})});

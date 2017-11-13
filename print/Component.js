@@ -1,0 +1,1 @@
+"use strict";sap.ui.define(["sap/ui/core/UIComponent","portfolio/print/model/models"],function(t,e){return t.extend("portfolio.print.Component",{metadata:{manifest:"json"},init:function(){this.setModel(e.createMainModel(this.getModel("i18n").getResourceBundle())),t.prototype.init.apply(this,arguments)}})});

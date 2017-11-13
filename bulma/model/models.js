@@ -1,0 +1,1 @@
+"use strict";sap.ui.define(["sap/ui/model/json/JSONModel","sap/ui/Device","jquery.sap.global","./data"],function(e,n,a,i){return{createDeviceModel:function(){var a=new e(n);return a.setDefaultBindingMode("OneWay"),a},createMainModel:function(n){return new e(i(n))}}});
